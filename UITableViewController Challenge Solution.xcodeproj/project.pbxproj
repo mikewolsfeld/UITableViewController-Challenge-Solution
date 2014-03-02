@@ -14,13 +14,13 @@
 		200304F918C3B0E3005802DE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 200304F818C3B0E3005802DE /* main.m */; };
 		200304FD18C3B0E3005802DE /* MWAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 200304FC18C3B0E3005802DE /* MWAppDelegate.m */; };
 		2003050018C3B0E3005802DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 200304FE18C3B0E3005802DE /* Main.storyboard */; };
-		2003050318C3B0E4005802DE /* MWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003050218C3B0E4005802DE /* MWViewController.m */; };
 		2003050518C3B0E4005802DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2003050418C3B0E4005802DE /* Images.xcassets */; };
 		2003050C18C3B0E4005802DE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2003050B18C3B0E4005802DE /* XCTest.framework */; };
 		2003050D18C3B0E4005802DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200304EC18C3B0E3005802DE /* Foundation.framework */; };
 		2003050E18C3B0E4005802DE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 200304F018C3B0E3005802DE /* UIKit.framework */; };
 		2003051618C3B0E4005802DE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2003051418C3B0E4005802DE /* InfoPlist.strings */; };
 		2003051818C3B0E4005802DE /* UITableViewController_Challenge_SolutionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003051718C3B0E4005802DE /* UITableViewController_Challenge_SolutionTests.m */; };
+		2003052318C3B463005802DE /* MWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2003052218C3B463005802DE /* MWTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,14 +45,14 @@
 		200304FB18C3B0E3005802DE /* MWAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWAppDelegate.h; sourceTree = "<group>"; };
 		200304FC18C3B0E3005802DE /* MWAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWAppDelegate.m; sourceTree = "<group>"; };
 		200304FF18C3B0E3005802DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2003050118C3B0E4005802DE /* MWViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MWViewController.h; sourceTree = "<group>"; };
-		2003050218C3B0E4005802DE /* MWViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MWViewController.m; sourceTree = "<group>"; };
 		2003050418C3B0E4005802DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		2003050A18C3B0E4005802DE /* UITableViewController Challenge SolutionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "UITableViewController Challenge SolutionTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2003050B18C3B0E4005802DE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		2003051318C3B0E4005802DE /* UITableViewController Challenge SolutionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UITableViewController Challenge SolutionTests-Info.plist"; sourceTree = "<group>"; };
 		2003051518C3B0E4005802DE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		2003051718C3B0E4005802DE /* UITableViewController_Challenge_SolutionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UITableViewController_Challenge_SolutionTests.m; sourceTree = "<group>"; };
+		2003052118C3B463005802DE /* MWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MWTableViewController.h; sourceTree = "<group>"; };
+		2003052218C3B463005802DE /* MWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MWTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -115,8 +115,8 @@
 				200304FB18C3B0E3005802DE /* MWAppDelegate.h */,
 				200304FC18C3B0E3005802DE /* MWAppDelegate.m */,
 				200304FE18C3B0E3005802DE /* Main.storyboard */,
-				2003050118C3B0E4005802DE /* MWViewController.h */,
-				2003050218C3B0E4005802DE /* MWViewController.m */,
+				2003052118C3B463005802DE /* MWTableViewController.h */,
+				2003052218C3B463005802DE /* MWTableViewController.m */,
 				2003050418C3B0E4005802DE /* Images.xcassets */,
 				200304F318C3B0E3005802DE /* Supporting Files */,
 			);
@@ -250,8 +250,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2003052318C3B463005802DE /* MWTableViewController.m in Sources */,
 				200304FD18C3B0E3005802DE /* MWAppDelegate.m in Sources */,
-				2003050318C3B0E4005802DE /* MWViewController.m in Sources */,
 				200304F918C3B0E3005802DE /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

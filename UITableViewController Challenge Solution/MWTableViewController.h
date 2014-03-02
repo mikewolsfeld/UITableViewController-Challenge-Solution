@@ -1,5 +1,5 @@
 //
-//  MWViewController.h
+//  MWTableViewController.h
 //  UITableViewController Challenge Solution
 //
 //  Created by Mike Wolsfeld on 2014-03-02.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MWViewController : UIViewController
+@interface MWTableViewController : UITableViewController
 
 @end
